@@ -1,0 +1,21 @@
+post _reindex
+{
+  "source": {
+    "index": "noticiascouchdb"
+  },
+  "dest": {
+    "index": "mappingsnot"
+  }
+}
+
+post _reindex
+{
+  "source": {
+    "index": "juegosonlinecouchdb"
+  },
+  "dest": {
+    "index": "mappingsjuegos"
+  }
+}
+
+
